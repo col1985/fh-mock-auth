@@ -1,0 +1,17 @@
+{
+  "name": "mock-fh-auth",
+  "version": "0.0.1",
+  "description": "Middleware returning mock responses for local development using RHMAP $fh.auth api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RHMAP",
+    "Middlwware",
+    "local",
+    "dev"
+  ],
+  "author": "Colum Bennett <cbennett@redhat.com> (https://www.redhat.com/)",
+  "license": "ISC"
+}

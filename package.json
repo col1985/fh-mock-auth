@@ -1,5 +1,5 @@
 {
-  "name": "mock-fh-auth",
+  "name": "fh-mock-auth",
   "version": "0.0.1",
   "description": "Middleware returning mock responses for local development using RHMAP $fh.auth api",
   "main": "index.js",
@@ -13,5 +13,10 @@
     "dev"
   ],
   "author": "Colum Bennett <cbennett@redhat.com> (https://www.redhat.com/)",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "mocha": "3.1.0",
+    "request": "2.75.0"
+  }
 }
